@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Event</title>
+  <link rel="stylesheet" href="/public/style.css">
+  <!-- <base href="/" /> if no "/" before src in script tag -->
+  <script src="/scripts/header.js"></script>
+  <script src="/scripts/event.js"></script>
+</head>
+<body>
+  <header></header>
+
+  <!-- renamed for events; same structure -->
+  <main id="event-content" class="event-info">
+    <div class="image-container">
+      <img id="image" src="">
+    </div>
+
+    <div class="event-details">
+      <h2 id="name"></h2>
+      <p id="submittedBy"></p>
+      <p id="submittedOn"></p>
+
+      <!-- keep these IDs; your JS maps them to ticket price & teams -->
+      <p id="pricePoint"></p>   <!-- will show "Ticket Price: ..." -->
+      <p id="audience"></p>     <!-- will show "Teams: ..." -->
+
+      <!-- extra event fields (JS fills them if present) -->
+      <p id="sport"></p>
+      <p id="venue"></p>
+      <p id="dateTime"></p>
+
+      <p id="description"></p>
+    </div>
+  </main>
+</body>
+</html>
