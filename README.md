@@ -3,10 +3,10 @@
 Submitted by: **Danh Nguyen**
 
 About this web app: **Sportify is a lightweight web app for discovering upcoming sports events at a glance.  
-Browse a clean grid of equal-height cards with images, matchup, date/time, venue, and price tier,  
-then tap **“Read More”** for a simple detail view.  
+Browse a clean grid of flex cards with images, matchup, date/time, venue, and price tier,  
+then tap “Read More” for a simple detail view.  
 
-Built with **Vite + vanilla JS** on the frontend and an **Express API + PostgreSQL** backend,  
+Built with Vite + vanilla JS on the frontend and an Express API + PostgreSQL backend,  
 it’s fast, responsive, and easy to extend.**
 
 Time spent: **6** hours
